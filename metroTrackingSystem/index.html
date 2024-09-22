@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Chennai Metro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Chennai Metro</h1>
+      <div class="form">
+        <label for="source">Source Station:</label>
+        <select id="source">
+          <option value="">Select Source Station</option>
+          <option value="Chennai Airport Metro">Chennai Airport Metro</option>
+          <option value="Meenambakkam Metro">Meenambakkam Metro</option>
+          <option value="Nanganallur Road">Nanganallur Road</option>
+          <option value="Alandur">Alandur</option>
+          <option value="St Thomas Mount">St Thomas Mount</option>
+          <option value="Ekkatuthangal">Ekkatuthangal</option>
+          <option value="Guindy">Guindy</option>
+          <option value="Ashok Nagar">Ashok Nagar</option>
+          <option value="Little Mount">Little Mount</option>
+          <option value="Vadapalani">Vadapalani</option>
+          <option value="Saidapet">Saidapet</option>
+          <option value="Arumbakkam">Arumbakkam</option>
+          <option value="Nandanam">Nandanam</option>
+          <option value="CMBT">CMBT</option>
+          <option value="Teynampet">Teynampet</option>
+          <option value="Koyambedu">Koyambedu</option>
+          <option value="AG-DMS">AG-DMS</option>
+
+          <option value="Thirumangalam">Thirumangalam</option>
+          <option value="Thousand Lights">Thousand Lights</option>
+          <option value="Annanagar Tower">Annanagar Tower</option>
+          <option value="LIC">LIC</option>
+
+          <option value="Annanagar East">Annanagar East</option>
+          <option value="Government Estate">Government Estate</option>
+          <option value="Shenoy Nagar">Shenoy Nagar</option>
+          <option value="Central Metro">Central Metro</option>
+
+          <option value="Pachaiyappa">Pachaiyappa</option>
+          <option value="Egmore">Egmore</option>
+          <option value="High Court">High Court</option>
+          <option value="Kilpauk">Kilpauk</option>
+
+          <option value="Nehru park">Nehru Park</option>
+          <option value="Mannadi">Mannadi</option>
+          <option value="Washermanpet">Washermanpet</option>
+          <option value="Tondiarpet">Tondiarpet</option>
+          
+          <option value="New Washermanpet">New Washermanpet</option>
+          <option value="Tollgate">Tollgate</option>
+          <option value="Kaladipet">Kaladipet</option>
+          <option value="Theradi">Theradi</option>
+
+          <option value="Thiruvottriyur">Thiruvottriyur</option>
+          <option value="Wimco Nagar">Wimco Nagar</option>
+          <option value="Wimco Nagar Depot">Wimco Nagar Depot</option>
+
+        </select>
+        <label for="destination">Destination Station:</label>
+        <select id="destination">
+          <option value="">Select Destination Station</option>
+          <option value="Chennai Airport Metro">Chennai Airport Metro</option>
+          <option value="Meenambakkam Metro">Meenambakkam Metro</option>
+          <option value="Nanganallur Road">Nanganallur Road</option>
+          <option value="Alandur">Alandur</option>
+          <option value="St Thomas Mount">St Thomas Mount</option>
+          <option value="Ekkatuthangal">Ekkatuthangal</option>
+          <option value="Guindy">Guindy</option>
+          <option value="Ashok Nagar">Ashok Nagar</option>
+          <option value="Little Mount">Little Mount</option>
+          <option value="Vadapalani">Vadapalani</option>
+          <option value="Saidapet">Saidapet</option>
+          <option value="Arumbakkam">Arumbakkam</option>
+          <option value="Nandanam">Nandanam</option>
+          <option value="CMBT">CMBT</option>
+          <option value="Teynampet">Teynampet</option>
+          <option value="Koyambedu">Koyambedu</option>
+          <option value="AG-DMS">AG-DMS</option>
+          
+          <option value="Thirumangalam">Thirumangalam</option>
+          <option value="Thousand Lights">Thousand Lights</option>
+          <option value="Annanagar Tower">Annanagar Tower</option>
+          <option value="LIC">LIC</option>
+
+          <option value="Annanagar East">Annanagar East</option>
+          <option value="Government Estate">Government Estate</option>
+          <option value="Shenoy Nagar">Shenoy Nagar</option>
+          <option value="Central Metro">Central Metro</option>
+
+          <option value="Pachaiyappa">Pachaiyappa</option>
+          <option value="Egmore">Egmore</option>
+          <option value="High Court">High Court</option>
+          <option value="Kilpauk">Kilpauk</option>
+
+          <option value="Nehru park">Nehru Park</option>
+          <option value="Mannadi">Mannadi</option>
+          <option value="Washermanpet">Washermanpet</option>
+          <option value="Tondiarpet">Tondiarpet</option>
+          
+          <option value="New Washermanpet">New Washermanpet</option>
+          <option value="Tollgate">Tollgate</option>
+          <option value="Kaladipet">Kaladipet</option>
+          <option value="Theradi">Theradi</option>
+
+          <option value="Thiruvottriyur">Thiruvottriyur</option>
+          <option value="Wimco Nagar">Wimco Nagar</option>
+          <option value="Wimco Nagar Depot">Wimco Nagar Depot</option>
+        </select>
+        <input type="button" value="Calculate" onclick="calculate()" />
+      </div>
+      <div class="results">
+        <h2>Results</h2>
+        <!-- <p><b>Fare:</b> <span id="fare"></span></p> -->
+        <p><b>Route: </b><br /><span id="route"></span></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
