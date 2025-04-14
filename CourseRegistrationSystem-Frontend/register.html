@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        body{
+            background-color: #333;
+            color:whitesmoke;
+            font-size: larger;
+        }
+        button{
+            all:unset;
+            padding: 10px;
+            margin: 10px;
+            outline:none;
+            background-color: #332cfa;
+            color:white;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fill Your Details</h1>
+    <form action="http://localhost:8080/courses/register" method="post">
+
+        <label for="name">Enter Your Name</label>
+        <input type="text" name="name"> <br><br>
+
+        <label for="emailid">Enter Your mail Id</label>
+        <input type="text" name="emailid"> <br><br>
+
+        <label for="courseName">Choose a course</label>
+        <select name="courseName">
+            <option value="Java Programming">Java Programming</option>
+            <option value="Python Programming">Python Programming</option>
+            <option value="CPP Programming">CPP Programming</option>
+        </select>
+        <br><br>
+
+
+
+        <button type="submit">Submit</button>
+
+
+
+    </form>
+</body>
+</html>

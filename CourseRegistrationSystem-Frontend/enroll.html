@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll List</title>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <h1>Enrolled Students List</h1>
+
+    <table border="1">
+        <tr>
+            <th>Student Id</th>
+            <th>Name</th>
+            <th>EmailId</th>
+            <th>Course Name</th>
+        </tr>
+
+        <tbody id="enrolltable"></tbody>
+    </table>
+
+    <script>
+        window.onload = function(){
+            showEnrollStudents();
+        }
+    </script>
+</body>
+</html>
